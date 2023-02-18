@@ -51,7 +51,7 @@ function addrow(){
     // }
 
 
-    var obj ={id:n,book_name: cel1.innerHTML,issued_book:cel2.innerHTML,time:time,sts:"Not Returned"}
+    var obj =[{id:n,book_name: cel1.innerHTML,issued_book:cel2.innerHTML,time:time,sts:"Not Returned"}]
 
     console.log(obj);
     return true; 
